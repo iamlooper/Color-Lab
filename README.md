@@ -20,7 +20,7 @@ You can download Color Lab from the following:
 - Color Lab will not work in those ROMs which use their own monet implementation instead of Google's.
 - Every device is not compatible so kindly note this before giving feedback.
 
-## Screenshots 
+## Screenshots 📱
 [<img src="https://github.com/iamlooper/Color-Lab/raw/main/screenshots/1.png" width=140>](https://github.com/iamlooper/Color-Lab/raw/main/screenshots/1.png)
 [<img src="https://github.com/iamlooper/Color-Lab/raw/main/screenshots/2.png" width=140>](https://github.com/iamlooper/Color-Lab/raw/main/screenshots/2.png)
 [<img src="https://github.com/iamlooper/Color-Lab/raw/main/screenshots/3.png" width=140>](https://github.com/iamlooper/Color-Lab/raw/main/screenshots/3.png)
