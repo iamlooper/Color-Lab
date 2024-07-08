@@ -5,8 +5,8 @@ Experiment with colors!
 
 ## Download 📲
 You can download Color Lab from the following:
+- [Pling](https://www.pling.com/p/2163392/)
 - [Play Store](https://play.google.com/store/apps/details?id=com.looper.seeker)
-- [Buy Me a Coffee](https://buymeacoffee.com/iamlooper/posts) (Early access)
 
 ## Features ⭐
 - Individual Accent and Background Colors Customization
@@ -33,8 +33,8 @@ You can download Color Lab from the following:
 
 ## Support Me 💙
 If you liked any one of my projects then consider supporting me via following:
-- [Buy Me a Coffee](https://buymeacoffee.com/iamlooper/membership)
 - [Telegram Channel](https://loopprojects.t.me)
+- [Pling](https://www.pling.com/p/2163392/startdownload?file_id=1717964287)
 
 ## Credits 👥
 Due to the combined efforts and expertise of the following people, this project has achieved its success:
