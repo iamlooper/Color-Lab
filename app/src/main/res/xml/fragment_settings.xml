@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="App">
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:icon="@drawable/ic_reboot"
+            android:key="pref_apply_theme_on_boot"
+            android:title="@string/pref_apply_theme_on_boot_title" />
+
+        <MultiSelectListPreference
+            android:entries="@array/pref_disable_theming_entries"
+            android:entryValues="@array/pref_disable_theming_entry_values"
+            android:icon="@drawable/ic_edit_off"
+            android:key="pref_disable_theming"
+            android:title="@string/pref_disable_theming_title" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_colors"
+            android:key="pref_use_precise_colors"
+            android:title="@string/pref_use_precise_colors_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/tipping">
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_volunteer_activism"
+            android:key="pref_disable_tipping"
+            android:summary="@string/pref_disable_tipping_summary"
+            android:title="@string/pref_disable_tipping_title" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/pref_tipping_interval_entries"
+            android:entryValues="@array/pref_tipping_interval_entry_values"
+            android:icon="@drawable/ic_schedule"
+            android:key="pref_tipping_interval"
+            android:summary="@string/pref_tipping_interval_summary"
+            android:title="@string/pref_tipping_interval_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

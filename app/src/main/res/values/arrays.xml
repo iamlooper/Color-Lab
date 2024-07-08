@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_style_selector_entries">
+        <item>Neutral</item>
+        <item>Vibrant</item>
+        <item>Expressive</item>
+        <item>Rainbow</item>
+        <item>Fruit Salad</item>
+        <item>Content</item>
+        <item>Monochrome</item>
+        <item>Fidelity</item>
+        <item>Tonal Spot</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="pref_style_selector_entry_values">
+        <item>SPRITZ</item>
+        <item>VIBRANT</item>
+        <item>EXPRESSIVE</item>
+        <item>RAINBOW</item>
+        <item>FRUIT_SALAD</item>
+        <item>CONTENT</item>
+        <item>MONOCHROMATIC</item>
+        <item>FIDELITY</item>
+        <item>TONAL_SPOT</item>
+        <item>none</item>
+    </string-array>
+
+    <string-array name="pref_theme_selector_entries">
+        <item>None</item>
+    </string-array>
+    <string-array name="pref_theme_selector_entry_values">
+        <item>none</item>
+    </string-array>
+
+    <string-array name="pref_disable_theming_entries">
+        <item>Primary accent</item>
+        <item>Secondary accent</item>
+        <item>Tertiary accent</item>
+        <item>Primary neutral</item>
+        <item>Secondary neutral</item>
+    </string-array>
+    <string-array name="pref_disable_theming_entry_values">
+        <item>primary_accent</item>
+        <item>secondary_accent</item>
+        <item>tertiary_accent</item>
+        <item>primary_neutral</item>
+        <item>secondary_neutral</item>
+    </string-array>
+
+    <string-array name="pref_tipping_interval_entries">
+        <item>Every day</item>
+        <item>Every week</item>
+        <item>Every two weeks</item>
+    </string-array>
+    <string-array name="pref_tipping_interval_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

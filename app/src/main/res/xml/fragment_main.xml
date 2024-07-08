@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.looper.android.support.preference.ColorPickerPreference
+        android:icon="@drawable/ic_format_paint"
+        android:key="pref_primary_accent_changer"
+        android:summary="@string/pref_primary_accent_changer_summary"
+        android:title="@string/pref_primary_accent_changer_title" />
+
+    <com.looper.android.support.preference.ColorPickerPreference
+        android:icon="@drawable/ic_format_paint"
+        android:key="pref_secondary_accent_changer"
+        android:summary="@string/pref_secondary_accent_changer_summary"
+        android:title="@string/pref_secondary_accent_change_title" />
+
+    <com.looper.android.support.preference.ColorPickerPreference
+        android:icon="@drawable/ic_format_paint"
+        android:key="pref_tertiary_accent_changer"
+        android:summary="@string/pref_tertiary_accent_changer_summary"
+        android:title="@string/pref_tertiary_accent_changer_title" />
+
+    <com.looper.android.support.preference.ColorPickerPreference
+        android:icon="@drawable/ic_format_paint"
+        android:key="pref_primary_neutral_changer"
+        android:summary="@string/pref_primary_neutral_changer_summary"
+        android:title="@string/pref_primary_neutral_changer_title" />
+
+    <com.looper.android.support.preference.ColorPickerPreference
+        android:icon="@drawable/ic_format_paint"
+        android:key="pref_secondary_neutral_changer"
+        android:summary="@string/pref_secondary_neutral_changer_summary"
+        android:title="@string/pref_secondary_neutral_color_title" />
+
+    <ListPreference
+        android:defaultValue="none"
+        android:entries="@array/pref_style_selector_entries"
+        android:entryValues="@array/pref_style_selector_entry_values"
+        android:icon="@drawable/ic_brush"
+        android:key="pref_style_selector"
+        android:summary="@string/pref_style_selector_summary"
+        android:title="@string/pref_style_selector_title" />
+
+    <ListPreference
+        android:defaultValue="none"
+        android:enabled="false"
+        android:entries="@array/pref_theme_selector_entries"
+        android:entryValues="@array/pref_theme_selector_entry_values"
+        android:icon="@drawable/ic_palette"
+        android:key="pref_theme_selector"
+        android:summary="@string/pref_theme_selector_summary"
+        android:title="@string/pref_theme_selector_title" />
+
+</PreferenceScreen>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:icon="@drawable/ic_manage_accounts"
+        android:key="pref_developer_info"
+        android:summary="Looper"
+        android:title="@string/pref_developer_info_title">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://github.com/iamlooper" />
+    </Preference>
+
+    <Preference
+        android:icon="@drawable/ic_extension"
+        android:key="pref_version_info"
+        android:title="@string/pref_version_info_title" />
+
+    <Preference
+        android:icon="@drawable/ic_shop"
+        android:summary="@string/pref_more_apps_on_play_store_summary"
+        android:title="@string/pref_more_apps_on_play_store_title">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://play.google.com/store/apps/dev?id=6115418187591502860" />
+    </Preference>
+
+    <Preference
+        android:icon="@drawable/ic_new_releases"
+        android:summary="@string/pref_release_channel_summary"
+        android:title="@string/pref_release_channel_title">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://telegram.me/loopprojects" />
+    </Preference>
+
+    <Preference
+        android:icon="@drawable/ic_groups"
+        android:summary="@string/pref_credits_summary"
+        android:title="@string/pref_credits_title">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://github.com/iamlooper/Color-Lab/tree/main#credits-" />
+    </Preference>
+
+    <Preference
+        android:icon="@drawable/ic_license"
+        android:summary="@string/pref_licenses_summary"
+        android:title="@string/pref_licenses_title">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://github.com/iamlooper/Color-Lab/tree/app#licenses-" />
+    </Preference>
+
+    <Preference
+        android:icon="@drawable/ic_github"
+        android:summary="@string/pref_github_summary"
+        android:title="@string/pref_github_title">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://github.com/iamlooper/Color-Lab" />
+    </Preference>
+
+</PreferenceScreen>
