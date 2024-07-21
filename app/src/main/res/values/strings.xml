@@ -1,20 +1,12 @@
 <resources>
-    <!-- Main -->
     <string name="app_name">Color Lab</string>
-    <string name="app_title">Color Lab</string>
     <string name="app_description">Experiment with colors!</string>
-
-    <!-- Title -->
     <string name="title_main">Main</string>
     <string name="title_settings">Settings</string>
     <string name="title_about">About</string>
     <string name="title_info">Info</string>
-
-    <!-- Dialog -->
     <string name="info_colors_title">Colors</string>
     <string name="info_colors_text">### Primary\nPrimary colors are used for key components across the UI, such as prominent buttons, active states, and the tint of elevated surfaces.\n### Secondary\nSecondary colors are used for less prominent components in the UI, such as filter chips, and opportunities for additional for color expression.\n### Tertiary\nTertiary roles are used for contrasting accents that can be used to balance primary and secondary colors or bring heightened attention to an element, such as an input field.\n### Neutral\nNeutral colors are used for surfaces and backgrounds, and high emphasis text and icons.</string>
-
-    <!-- Preference -->
     <string name="pref_more_apps_on_play_store_title">More apps on Play Store</string>
     <string name="pref_more_apps_on_play_store_summary">Try other apps by me on Play Store</string>
     <string name="pref_release_channel_title">Release channel</string>
@@ -23,8 +15,6 @@
     <string name="pref_credits_summary">Much appreciated people who helped me with this app</string>
     <string name="pref_licenses_title">Licenses</string>
     <string name="pref_licenses_summary">Libraries used to develop this app</string>
-    <string name="pref_github_title">Github</string>
-    <string name="pref_github_summary">A GitHub repository for more detailed information on this app</string>
     <string name="pref_primary_accent_changer_summary">Change the primary accent used for key components across the UI</string>
     <string name="pref_primary_accent_changer_title">Primary accent changer</string>
     <string name="pref_secondary_accent_changer_summary">Change the secondary accent for less prominent components</string>
@@ -48,8 +38,6 @@
     <string name="pref_disable_tipping_summary">Tipping allows users to support the developer financially by visiting links in clickable notifications sent by the app at regular intervals. The interval can be adjusted by users. This system sustains the app and encourages further development without the need to view ads.</string>
     <string name="pref_tipping_interval_title">Tipping interval</string>
     <string name="pref_tipping_interval_summary">Interval: %s</string>
-
-    <!-- Toast -->
     <string name="theming_is_disabled">Theming is disabled. Enable it in settings</string>
     <string name="primary_accent_color_is_disabled">Primary accent is disabled. Enable it in settings</string>
     <string name="secondary_accent_color_is_disabled">Secondary accent is disabled. Enable it in settings</string>
@@ -57,8 +45,6 @@
     <string name="primary_neutral_color_is_disabled">Primary neutral is disabled. Enable it in settings</string>
     <string name="secondary_neutral_color_is_disabled">Secondary neutral is disabled. Enable it in settings</string>
     <string name="root_not_found">Root not found!</string>
-
-    <!-- Notification -->
     <string name="theme_on_boot">Theme on boot</string>
     <string name="theming">Theming</string>
     <string name="applied_theme_on_boot">Applied theme on boot</string>
