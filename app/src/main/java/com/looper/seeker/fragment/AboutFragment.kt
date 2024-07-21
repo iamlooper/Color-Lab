@@ -17,6 +17,6 @@ class AboutFragment : PreferenceFragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val prefVersionInfo = findPreference<Preference>("pref_version_info")
-        prefVersionInfo!!.summary = AppUtils.getVersion(requireContext())
+        prefVersionInfo!!.summary = AppUtils.getVersionName(requireContext())
     }
 }

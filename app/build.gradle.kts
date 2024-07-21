@@ -18,8 +18,8 @@ android {
         applicationId = "com.looper.seeker"
         minSdk = 31
         targetSdk = 34
-        versionCode = 28
-        versionName = "2.0.0-beta-" + getCurrentDate()
+        versionCode = 29
+        versionName = "2.0.0"
 
         vectorDrawables.useSupportLibrary = true
     }

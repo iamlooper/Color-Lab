@@ -42,12 +42,12 @@ class BootService : Service() {
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         // Initialize variables.
-        sharedPreferencesUtils = SharedPreferencesUtils.getInstance(this)
+        sharedPreferencesUtils = SharedPreferencesUtils(this)
         fabricatedOverlayUtils = FabricatedOverlayUtils()
 
         // If apply theme on boot is enabled, apply the theme else disable it.
-        val disableTheming = sharedPreferencesUtils.getStringSet("pref_disable_theming", emptySet())
-        if (sharedPreferencesUtils.getBoolean(
+        val disableTheming = sharedPreferencesUtils.get("pref_disable_theming", emptySet<String>())
+        if (sharedPreferencesUtils.get(
                 "pref_apply_theme_on_boot",
                 true
             ) && disableTheming.size != 5

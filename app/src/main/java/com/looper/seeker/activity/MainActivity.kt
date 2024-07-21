@@ -5,7 +5,6 @@ import android.os.Build
 import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.preference.PreferenceManager
-import com.looper.android.support.activity.NoNavigationActivity
 import com.looper.android.support.util.PermissionUtils
 import com.looper.seeker.MyApp
 import com.looper.seeker.R
@@ -29,7 +28,11 @@ class MainActivity : NoNavigationActivity() {
 
         // Request for notification permission on A13+.
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            PermissionUtils.request(this, this, Manifest.permission.POST_NOTIFICATIONS)
+            PermissionUtils.requestPermission(
+                activity = this,
+                context = this,
+                permission = Manifest.permission.POST_NOTIFICATIONS
+            ).invoke()
         }
 
         // Initialize root connection provider.
@@ -52,5 +55,9 @@ class MainActivity : NoNavigationActivity() {
     override fun onStop() {
         super.onStop()
         navController.removeOnDestinationChangedListener(destinationChangeListener)
+    }
+
+    override fun getContentView(): Int {
+        return R.layout.activity_main
     }
 }

@@ -13,9 +13,9 @@ import androidx.core.view.MenuProvider
 import androidx.lifecycle.Lifecycle
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
-import androidx.preference.PreferenceManager
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.looper.android.support.preference.PreferenceFragment
+import com.looper.android.support.util.SharedPreferencesUtils
 import com.looper.seeker.MyApp
 import com.looper.seeker.R
 import io.noties.markwon.Markwon
@@ -39,7 +39,7 @@ class MainFragment : PreferenceFragment(), SharedPreferences.OnSharedPreferenceC
 
         // Initialize variables.
         navController = view.findNavController()
-        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(requireContext())
+        sharedPreferences = SharedPreferencesUtils(requireContext()).getSharedPreferences()
 
         // Register the listener.
         sharedPreferences.registerOnSharedPreferenceChangeListener(this)
