@@ -40,6 +40,7 @@
         android:summary="@string/pref_style_selector_summary"
         android:title="@string/pref_style_selector_title" />
 
+    <!--
     <ListPreference
         android:defaultValue="none"
         android:enabled="false"
@@ -49,5 +50,6 @@
         android:key="pref_theme_selector"
         android:summary="@string/pref_theme_selector_summary"
         android:title="@string/pref_theme_selector_title" />
+    -->
 
 </PreferenceScreen>

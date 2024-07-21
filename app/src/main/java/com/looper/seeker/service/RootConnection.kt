@@ -158,7 +158,6 @@ class RootConnection : RootService() {
 
             if (usePreciseColors) {
                 resources[3].value = color
-                resources[9].value = color
             }
 
             return resources

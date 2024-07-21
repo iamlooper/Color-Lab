@@ -1,6 +1,6 @@
 # Changelog
 
-## v2.0.0-beta-20240708
+## v2.0.0
 - Renamed from Seeker to Color Lab
 - Implemented individual accent and background colors customization
 - Added precise colors option

@@ -27,7 +27,7 @@ class SettingsFragment : PreferenceFragment(), SharedPreferences.OnSharedPrefere
         super.onViewCreated(view, savedInstanceState)
 
         // Initialize variables.
-        sharedPreferencesUtils = SharedPreferencesUtils.getInstance(requireContext())
+        sharedPreferencesUtils = SharedPreferencesUtils(requireContext())
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(requireContext())
 
         // Register the listener.
@@ -138,31 +138,31 @@ class SettingsFragment : PreferenceFragment(), SharedPreferences.OnSharedPrefere
             return
         }
 
-        val options = sharedPreferencesUtils.getStringSet("pref_disable_theming", emptySet())
+        val options = sharedPreferencesUtils.get("pref_disable_theming", emptySet<String>())
 
         rootService.changeTheme(
-            if (!options.contains("primary_accent")) sharedPreferencesUtils.getInt(
+            if (!options.contains("primary_accent")) sharedPreferencesUtils.get(
                 "pref_primary_accent_changer",
                 0
             ) else 0,
-            if (!options.contains("secondary_accent")) sharedPreferencesUtils.getInt(
+            if (!options.contains("secondary_accent")) sharedPreferencesUtils.get(
                 "pref_secondary_accent_changer",
                 0
             ) else 0,
-            if (!options.contains("tertiary_accent")) sharedPreferencesUtils.getInt(
+            if (!options.contains("tertiary_accent")) sharedPreferencesUtils.get(
                 "pref_tertiary_accent_changer",
                 0
             ) else 0,
-            if (!options.contains("primary_neutral")) sharedPreferencesUtils.getInt(
+            if (!options.contains("primary_neutral")) sharedPreferencesUtils.get(
                 "pref_primary_neutral_changer",
                 0
             ) else 0,
-            if (!options.contains("secondary_neutral")) sharedPreferencesUtils.getInt(
+            if (!options.contains("secondary_neutral")) sharedPreferencesUtils.get(
                 "pref_secondary_neutral_changer",
                 0
             ) else 0,
-            sharedPreferencesUtils.getString("pref_style_selector", "none"),
-            sharedPreferencesUtils.getBoolean("pref_use_precise_colors", false)
+            sharedPreferencesUtils.get("pref_style_selector", "none"),
+            sharedPreferencesUtils.get("pref_use_precise_colors", false)
         )
     }
 }
