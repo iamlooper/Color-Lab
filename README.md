@@ -6,7 +6,6 @@ Experiment with colors!
 ## Download 📲
 You can download Color Lab from the following:
 - [Pling](https://www.pling.com/p/2163392/)
-- [Play Store](https://play.google.com/store/apps/details?id=com.looper.seeker)
 
 ## Features ⭐
 - Individual Accent and Background Colors Customization

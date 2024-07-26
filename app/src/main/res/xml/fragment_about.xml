@@ -17,15 +17,6 @@
         android:title="@string/pref_version_info_title" />
 
     <Preference
-        android:icon="@drawable/ic_shop"
-        android:summary="@string/pref_more_apps_on_play_store_summary"
-        android:title="@string/pref_more_apps_on_play_store_title">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://play.google.com/store/apps/dev?id=6115418187591502860" />
-    </Preference>
-
-    <Preference
         android:icon="@drawable/ic_new_releases"
         android:summary="@string/pref_release_channel_summary"
         android:title="@string/pref_release_channel_title">

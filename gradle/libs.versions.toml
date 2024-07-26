@@ -1,33 +1,35 @@
 [versions]
 gradle = "8.5.1"
+jsoup = "1.18.1"
 kotlin = "1.9.0"
 appcompat = "1.7.0"
 core = "1.13.1"
-constraintlayout = "2.1.4"
+constraintLayout = "2.1.4"
 navigation = "2.7.7"
 preference = "1.2.1"
-fragment = "1.8.1"
+fragment = "1.8.2"
 material = "1.12.0"
 libsu = "5.2.2"
-android-support = "2.9.0"
-hiddenapibypass = "4.3"
+androidSupport = "2.9.0"
+hiddenApiBypass = "4.3"
 markwon = "4.6.2"
-work-runtime = "2.9.0"
+workRuntime = "2.9.0"
 
 [libraries]
 gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+jsoup = { module = "org.jsoup:jsoup", version.ref = "jsoup" }
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 androidx-core = { group = "androidx.core", name = "core-ktx", version.ref = "core" }
-androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintLayout" }
 androidx-fragment = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragment" }
 androidx-navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
 androidx-navigation-ui = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation" }
 androidx-preference = { group = "androidx.preference", name = "preference-ktx", version.ref = "preference" }
-androidx-work-runtime = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "work-runtime" }
+androidx-work-runtime = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workRuntime" }
 google-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 topjohnwu-libsu-core = { group = "com.github.topjohnwu.libsu", name = "core", version.ref = "libsu" }
 topjohnwu-libsu-service = { group = "com.github.topjohnwu.libsu", name = "service", version.ref = "libsu" }
-looper-android-support = { group = "com.github.iamlooper", name = "android-support", version.ref = "android-support" }
-lsposed-hiddenapibypass = { group = "org.lsposed.hiddenapibypass", name = "hiddenapibypass", version.ref = "hiddenapibypass" }
+looper-android-support = { group = "com.github.iamlooper", name = "android-support", version.ref = "androidSupport" }
+lsposed-hiddenapibypass = { group = "org.lsposed.hiddenapibypass", name = "hiddenapibypass", version.ref = "hiddenApiBypass" }
 noties-markwon-core = { group = "io.noties.markwon", name = "core", version.ref = "markwon" }

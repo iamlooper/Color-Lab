@@ -18,7 +18,7 @@ android {
         applicationId = "com.looper.seeker"
         minSdk = 31
         targetSdk = 34
-        versionCode = 31
+        versionCode = 32
         versionName = "2.0.0"
 
         vectorDrawables.useSupportLibrary = true
@@ -64,15 +64,11 @@ dependencies {
     implementation(libs.androidx.navigation.ui)
     implementation(libs.androidx.preference)
     implementation(libs.androidx.work.runtime)
-    
     implementation(libs.google.material)
-
     implementation(libs.topjohnwu.libsu.core)
     implementation(libs.topjohnwu.libsu.service)
-    
     implementation(libs.lsposed.hiddenapibypass)
-
     implementation(libs.noties.markwon.core)
-
     implementation(libs.looper.android.support)
+    implementation(libs.jsoup)
 }

@@ -7,8 +7,6 @@
     <string name="title_info">Info</string>
     <string name="info_colors_title">Colors</string>
     <string name="info_colors_text">### Primary\nPrimary colors are used for key components across the UI, such as prominent buttons, active states, and the tint of elevated surfaces.\n### Secondary\nSecondary colors are used for less prominent components in the UI, such as filter chips, and opportunities for additional for color expression.\n### Tertiary\nTertiary roles are used for contrasting accents that can be used to balance primary and secondary colors or bring heightened attention to an element, such as an input field.\n### Neutral\nNeutral colors are used for surfaces and backgrounds, and high emphasis text and icons.</string>
-    <string name="pref_more_apps_on_play_store_title">More apps on Play Store</string>
-    <string name="pref_more_apps_on_play_store_summary">Try other apps by me on Play Store</string>
     <string name="pref_release_channel_title">Release channel</string>
     <string name="pref_release_channel_summary">Checkout new updates and projects on our Telegram channel</string>
     <string name="pref_credits_title">Credits</string>
@@ -48,6 +46,4 @@
     <string name="theme_on_boot">Theme on boot</string>
     <string name="theming">Theming</string>
     <string name="applied_theme_on_boot">Applied theme on boot</string>
-    <string name="tipping">Tipping</string>
-    <string name="tipping_notification_content">Want to tip the developer? Click on this notification</string>
 </resources>

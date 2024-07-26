@@ -4,12 +4,10 @@ import android.Manifest
 import android.os.Build
 import android.os.Bundle
 import androidx.navigation.NavController
-import androidx.preference.PreferenceManager
 import com.looper.android.support.util.PermissionUtils
 import com.looper.seeker.MyApp
 import com.looper.seeker.R
 import com.looper.seeker.provider.RootConnectionProvider
-import com.looper.seeker.worker.TippingWorker
 
 class MainActivity : NoNavigationActivity() {
 
@@ -37,14 +35,6 @@ class MainActivity : NoNavigationActivity() {
 
         // Initialize root connection provider.
         MyApp.rootConnectionProvider = RootConnectionProvider(this)
-
-        // Start tipping worker.
-        val sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this)
-        TippingWorker.scheduleTipping(
-            this,
-            sharedPreferences.getBoolean("pref_disable_tipping", false),
-            sharedPreferences.getString("pref_tipping_interval", "1").toInt()
-        )
     }
 
     override fun onStart() {

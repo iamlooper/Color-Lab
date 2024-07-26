@@ -29,10 +29,5 @@ class MyApp : App() {
             "theming_notification",
             getString(R.string.theming)
         )
-        NotificationUtils.buildChannel(
-            this,
-            "tipping_notification",
-            applicationContext.getString(R.string.tipping)
-        )
     }
 }

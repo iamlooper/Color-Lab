@@ -12,7 +12,6 @@ import com.looper.android.support.preference.PreferenceFragment
 import com.looper.android.support.util.SharedPreferencesUtils
 import com.looper.seeker.MyApp
 import com.looper.seeker.R
-import com.looper.seeker.worker.TippingWorker
 
 class SettingsFragment : PreferenceFragment(), SharedPreferences.OnSharedPreferenceChangeListener {
 
@@ -93,14 +92,6 @@ class SettingsFragment : PreferenceFragment(), SharedPreferences.OnSharedPrefere
                     ) else 0,
                     prefs.getString("pref_style_selector", "none"),
                     prefs.getBoolean("pref_use_precise_colors", false)
-                )
-            }
-
-            "pref_tipping_interval" -> {
-                TippingWorker.scheduleTipping(
-                    requireContext(),
-                    prefs.getBoolean("pref_disable_tipping", false),
-                    prefs.getString("pref_tipping_interval", "1").toInt()
                 )
             }
         }
