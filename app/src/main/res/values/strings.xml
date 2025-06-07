@@ -32,10 +32,6 @@
     <string name="pref_use_precise_colors_title">Use precise colors</string>
     <string name="pref_developer_info_title">Developer</string>
     <string name="pref_version_info_title">Version</string>
-    <string name="pref_disable_tipping_title">Disable tipping</string>
-    <string name="pref_disable_tipping_summary">Tipping allows users to support the developer financially by visiting links in clickable notifications sent by the app at regular intervals. The interval can be adjusted by users. This system sustains the app and encourages further development without the need to view ads.</string>
-    <string name="pref_tipping_interval_title">Tipping interval</string>
-    <string name="pref_tipping_interval_summary">Interval: %s</string>
     <string name="theming_is_disabled">Theming is disabled. Enable it in settings</string>
     <string name="primary_accent_color_is_disabled">Primary accent is disabled. Enable it in settings</string>
     <string name="secondary_accent_color_is_disabled">Secondary accent is disabled. Enable it in settings</string>

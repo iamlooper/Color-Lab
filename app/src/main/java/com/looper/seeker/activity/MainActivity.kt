@@ -4,12 +4,13 @@ import android.Manifest
 import android.os.Build
 import android.os.Bundle
 import androidx.navigation.NavController
+import com.looper.android.support.activity.JustNavigationActivity
 import com.looper.android.support.util.PermissionUtils
 import com.looper.seeker.MyApp
 import com.looper.seeker.R
 import com.looper.seeker.provider.RootConnectionProvider
 
-class MainActivity : NoNavigationActivity() {
+class MainActivity : JustNavigationActivity() {
 
     private val destinationChangeListener =
         NavController.OnDestinationChangedListener { _, destination, _ ->
